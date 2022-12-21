@@ -1,0 +1,34 @@
+.css-8t49rw-MuiStepConnector-line{
+  display: none;
+}
+.css-14sza3e-MuiStepLabel-root{
+  padding :0;
+}
+.css-z7uhs0-MuiStepConnector-line{
+  display: none
+}
+.css-95m0ql{
+  display: none
+}
+.css-r12ba4{
+  padding : 0
+}
+.css-vgb7rt{
+  display: none; 
+    border-color: rgb(255, 255, 255); 
+    border-left-style: solid;
+    border-left-width: 0px;
+    min-height: 0px;
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
